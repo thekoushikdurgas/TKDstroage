@@ -1,5 +1,5 @@
 import React from "react";
-import "./alert.css";
+import "https://raw.githubusercontent.com/thekoushikdurgas/TKDstroage/main/react/Alert/alert.css";
 
 export default function Alert(props) {
   const [toast, settoast] = React.useState(false);
