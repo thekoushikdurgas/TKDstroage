@@ -1,3 +1,3 @@
 # TKDstroage
  TKDstroage
-https://thekoushikdurgas.github.io/TKDstroage/
+http://koushikchandrasaha.thekoushikdurgas.in/
