@@ -1,0 +1,13 @@
+@font-face{font-family:"learnnet";src:url("../fonts/learnnet.eot?k7zt3d");src:url("../fonts/learnnet.eot?k7zt3d#iefix") format("embedded-opentype"),url("../fonts/learnnet.ttf?k7zt3d") format("truetype"),url("../fonts/learnnet.woff?k7zt3d") format("woff"),url("../fonts/learnnet.svg?k7zt3d#learnnet") format("svg");font-weight:normal;font-style:normal;font-display:block}
+.learnnet{font-family:"learnnet" !important;speak:never;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.learnnet-check:before{content:"\e900"}
+.learnnet-downarrow:before{content:"\e901"}
+.learnnet-guarantee:before{content:"\e902"}
+.learnnet-heart:before{content:"\e903"}
+.learnnet-inbox:before{content:"\e904"}
+.learnnet-lightbulb:before{content:"\e905"}
+.learnnet-menubar:before{content:"\e906"}
+.learnnet-money:before{content:"\e907"}
+.learnnet-rightarrow:before{content:"\e908"}
+.learnnet-scalepencil:before{content:"\e909"}
+.learnnet-star:before{content:"\e90a"}
