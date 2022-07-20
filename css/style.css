@@ -44,6 +44,7 @@ summary{display:list-item}
 ::-webkit-scrollbar-thumb{background:rgba(0,0,0,.3);border-radius:8px;border:3px solid transparent;background-clip:content-box}
 ::-webkit-scrollbar-thumb:hover{background-color:#ddd}
 @media screen and (max-width:800px){::-webkit-scrollbar{display:none}}
+html,body {font-family: "Poppins", sans-serif;width: 100%;height: 100%;overflow: hidden;}
 body{background-image:radial-gradient(circle at 50% 90%,#c9dbe9,#80b3ff 79%,#385c78)}
 .bodydark{background:radial-gradient(circle at 50% 90%,#060010 0,#060010 6%,#090016 11%,#070016 20%,#0a0121 48%,#0a0127 55%,#0a0129 57%,#0c012b 62%,#0e0131 68%,#0d012f 69%,#18023c 78%,#19023e 79%,#19023e 79%,#1c0242 81%,#22034b 85%,#2e045a 92%,#2f045e 96%,#340464 98%,#370569 100%)}
 body:after{position:fixed;content:"";top:0;left:0;right:0;bottom:0;background:url("../img/stars.png");background-size:cover;animation:stars 40s linear infinite alternate;z-index:-200}
@@ -53,7 +54,7 @@ body:before{position:fixed;content:"";top:0;left:0;right:0;bottom:0;background:u
 .background:before,.background:after{position:absolute;content:"";display:block;height:100%;min-width:2560px;width:100%;background-size:auto 100%;animation:clouds linear infinite alternate;z-index:-3}
 .background:after{background:url("../img/Cloud2.png") bottom repeat-x;animation-duration:210s}
 .background:before{background:url("../img/Cloud3.png") bottom repeat-x;animation-duration:120s;background-size:contain}
-#root{display:flex;align-items:center;justify-content:center;min-height:100vh;font-family:"Poppins",sans-serif;font-size:1em;letter-spacing:.1px;text-rendering:optimizeLegibility;text-shadow:1px 1px 1px rgb(0 0 0 / 0%);-webkit-font-smoothing:antialiased;color:var(--text-color)}
+#root{display:flex;align-items:center;justify-content:center;min-height:100vh;font-family:"Poppins",sans-serif;font-size:1em;letter-spacing:.1px;text-rendering:optimizeLegibility;text-shadow:1px 1px 1px rgb(0 0 0 / 0%);-webkit-font-smoothing:antialiased;color:var(--text-color);min-height: 100%;height: auto !important;height: 100%;}
 ::-webkit-scrollbar{width:11px}
 ::-webkit-scrollbar-track{background:0 0;width:0}
 ::-webkit-scrollbar-thumb{background:rgba(0,0,0,.3);border-radius:8px;border:3px solid transparent;background-clip:content-box}
