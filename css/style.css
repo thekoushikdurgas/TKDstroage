@@ -147,3 +147,7 @@ body:before{position:fixed;content:"";top:0;left:0;right:0;bottom:0;background:u
 @keyframes piece-2{0%,10%,90%,100%{height:10px;top:-5px}45%,55%{height:80px;top:-37px}}
 @keyframes piece-1{0%,10%,90%,100%{height:10px;top:-5px}45%,55%{height:60px;top:-31px}}
 @keyframes piece-0{0%,10%,90%,100%{height:10px;top:-5px}45%,55%{height:30px;top:-15px}}
+@keyframes tl{0%{transform:translate(8px,8px);opacity:0}15%{opacity:0}40%{opacity:1}}
+@keyframes tr{0%{transform:translate(-8px,8px);opacity:0}15%{opacity:0}40%{opacity:1}}
+@keyframes bl{0%{transform:translate(8px,-8px);opacity:0}15%{opacity:0}40%{opacity:1}}
+@keyframes br{0%{transform:translate(-8px,-8px);opacity:0}15%{opacity:0}40%{opacity:1}}
