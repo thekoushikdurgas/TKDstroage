@@ -39,11 +39,7 @@ textarea{overflow:auto}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 summary{display:list-item}
 [hidden],template{display:none}
-::-webkit-scrollbar{width:11px}
-::-webkit-scrollbar-track{background:0 0;width:0}
-::-webkit-scrollbar-thumb{background:rgba(0,0,0,.3);border-radius:8px;border:3px solid transparent;background-clip:content-box}
-::-webkit-scrollbar-thumb:hover{background-color:#ddd}
-@media screen and (max-width:800px){::-webkit-scrollbar{display:none}}
+/* mycode */
 html,body {font-family: "Poppins", sans-serif;width: 100%;height: 100%;overflow: hidden;}
 body{background-image:radial-gradient(circle at 50% 90%,#c9dbe9,#80b3ff 79%,#385c78)}
 .bodydark{background:radial-gradient(circle at 50% 90%,#060010 0,#060010 6%,#090016 11%,#070016 20%,#0a0121 48%,#0a0127 55%,#0a0129 57%,#0c012b 62%,#0e0131 68%,#0d012f 69%,#18023c 78%,#19023e 79%,#19023e 79%,#1c0242 81%,#22034b 85%,#2e045a 92%,#2f045e 96%,#340464 98%,#370569 100%)}
@@ -55,11 +51,40 @@ body:before{position:fixed;content:"";top:0;left:0;right:0;bottom:0;background:u
 .background:after{background:url("../img/Cloud2.png") bottom repeat-x;animation-duration:210s}
 .background:before{background:url("../img/Cloud3.png") bottom repeat-x;animation-duration:120s;background-size:contain}
 #root{display:flex;align-items:center;justify-content:center;min-height:100vh;font-family:"Poppins",sans-serif;font-size:1em;letter-spacing:.1px;text-rendering:optimizeLegibility;text-shadow:1px 1px 1px rgb(0 0 0 / 0%);-webkit-font-smoothing:antialiased;color:var(--text-color);min-height: 100%;height: auto !important;height: 100%;}
+/* scrollbar */
 ::-webkit-scrollbar{width:11px}
 ::-webkit-scrollbar-track{background:0 0;width:0}
 ::-webkit-scrollbar-thumb{background:rgba(0,0,0,.3);border-radius:8px;border:3px solid transparent;background-clip:content-box}
 ::-webkit-scrollbar-thumb:hover{background-color:#ddd}
 @media screen and (max-width:800px){::-webkit-scrollbar{display:none}}
+/* fullscreen */
+.fullscreen .fs-icon .arrow{transition:fill 1s ease;fill:transparent;stroke:var(--tkd2);stroke-width:2;stroke-linejoin:round}
+.fullscreen .fs-icon .tl{transform:rotate(0deg);transition:.5s ease-out;animation:tl 1s ease-in-out}
+.fullscreen .fs-icon .tr{transform:rotate(0deg);transition:.5s ease-out;animation:tr 1s ease-in-out}
+.fullscreen .fs-icon .bl{transform:rotate(0deg);transition:.5s ease-out;animation:bl 1s ease-in-out}
+.fullscreen .fs-icon .br{transform:rotate(0deg);transition:.5s ease-out;animation:br 1s ease-in-out}
+.fullscreen:hover .fs-icon{transform:scale(1.1);transition:.5s ease-out}
+.fullscreen:hover .fs-icon .arrow{fill:var(--tkd1);transition:fill 1s ease;transition:transform .5s ease-out}
+.fullscreen:hover .fs-icon .tl{transform:translate(-4px,-4px)}
+.fullscreen:hover .fs-icon .tr{transform:translate(4px,-4px)}
+.fullscreen:hover .fs-icon .bl{transform:translate(-4px,4px)}
+.fullscreen:hover .fs-icon .br{transform:translate(4px,4px)}
+.fullscreen:active .fs-icon{transform:scale(1.1);transition:.5s ease-out}
+.fullscreen:active .fs-icon .arrow{fill:var(--tkd2);transition:fill 1s ease}
+.fullscreen:active .fs-icon .tl{transform:translate(-60px,-60px);transition:.2s ease-out}
+.fullscreen:active .fs-icon .tr{transform:translate(60px,-60px);transition:.2s ease-out}
+.fullscreen:active .fs-icon .bl{transform:translate(-60px,60px);transition:.2s ease-out}
+.fullscreen:active .fs-icon .br{transform:translate(60px,60px);transition:.2s ease-out}
+.fullscreen.full .fs-icon .tl{transform:translate(40px,40px);transition:.5s ease-out}
+.fullscreen.full .fs-icon .br{transform:translate(-40px,-40px);transition:.5s ease-out}
+.fullscreen.full .fs-icon .tr{transform:translate(-40px,40px);transition:.5s ease-out}
+.fullscreen.full .fs-icon .bl{transform:translate(40px,-40px);transition:.5s ease-out}
+.fullscreen.full:hover .fs-icon{transform:scale(.9)}
+.fullscreen.full:hover .fs-icon .tl{transform:translate(35px,35px)}
+.fullscreen.full:hover .fs-icon .tr{transform:translate(-35px,35px)}
+.fullscreen.full:hover .fs-icon .bl{transform:translate(35px,-35px)}
+.fullscreen.full:hover .fs-icon .br{transform:translate(-35px,-35px)}
+/* keyframes */
 @keyframes spark1{0%{right:-5px;height:1px;width:1px;opacity:0}20%{height:3px;width:3px;right:0;opacity:1}30%{right:-5px;opacity:1;height:3px;width:3px}70%{height:3px;width:3px}100%{right:-60px;bottom:40px;opacity:0}}
 @keyframes spark2{0%{height:3px;width:3px;opacity:0}30%{opacity:1}100%{right:-20px;bottom:100px;opacity:0}}
 @keyframes spark3{0%{opacity:0}30%{opacity:1;height:2px;width:2px}100%{left:0;bottom:100px;opacity:0;height:3px;width:3px}}
