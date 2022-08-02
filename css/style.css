@@ -89,6 +89,12 @@ body:before{position:fixed;content:"";top:0;left:0;right:0;bottom:0;background:u
 .progresswarning:before{background-color:#ffc107 !important}
 .progressdanger:before{background-color:#dc3545 !important}
 .progressactive:before{animation:progress 5s linear forwards}
+/* login */
+.tkdcheckbox input:checked+svg{--a:16.1 86.12;--o:102.22}
+.tkdcheckbox svg{stroke-dasharray:var(--a,86.12);stroke-dashoffset:var(--o,86.12);transition:stroke-dasharray .6s,stroke-dashoffset .6s}
+input::placeholder{color:var(--text-color)}
+input::-webkit-input-placeholder{opacity:.5}
+input:focus::-webkit-input-placeholder{opacity:0}
 /* keyframes */
 @keyframes spark1{0%{right:-5px;height:1px;width:1px;opacity:0}20%{height:3px;width:3px;right:0;opacity:1}30%{right:-5px;opacity:1;height:3px;width:3px}70%{height:3px;width:3px}100%{right:-60px;bottom:40px;opacity:0}}
 @keyframes spark2{0%{height:3px;width:3px;opacity:0}30%{opacity:1}100%{right:-20px;bottom:100px;opacity:0}}
