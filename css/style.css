@@ -140,7 +140,7 @@ input:focus::-webkit-input-placeholder{opacity:0}
 @keyframes x-it{from{height:0}to{height:50%}}
 @keyframes zoomin{0%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);opacity:0}50%{-webkit-transform:scale(1.04);-ms-transform:scale(1.04);transform:scale(1.04);opacity:1}100%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);opacity:1}}
 @keyframes slide{0%{left:-100%;opacity:0}100%{left:-1%;opacity:1}}
-@keyframes slidetop{0%{top:0;opacity:0}100%{top:-100%;opacity:1}}
+@keyframes slidetop{0%{top:100%;opacity:0}100%{top:0;opacity:1}}
 @keyframes w3-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
 @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
 @keyframes opac{from{opacity:0}to{opacity:1}}
