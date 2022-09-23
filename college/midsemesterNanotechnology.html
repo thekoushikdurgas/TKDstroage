@@ -601,6 +601,35 @@
         plasma synthesis. Quantum dots synthesized by plasma are usually in the form of powder, for which surface
         modification may be carried out. This can lead to excellent dispersion of quantum dots in either organic
         solvents or water (i. e., colloidal quantum dots).</p>
+        <button onclick="showfullscreen();">Full Screen</button>
+    <script>
+
+        const showfullscreen = () => {
+            if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement) {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                }
+                setFullscreen(false);
+            } else {
+                if (document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen();
+                } else if (document.documentElement.webkitRequestFullscreen) {
+                    document.documentElement.webkitRequestFullscreen();
+                } else if (document.documentElement.mozRequestFullScreen) {
+                    document.documentElement.mozRequestFullScreen();
+                } else if (document.documentElement.msRequestFullscreen) {
+                    document.documentElement.msRequestFullscreen();
+                }
+                setFullscreen(true);
+            }
+        }
+    </script>
 </body>
 
 </html>
