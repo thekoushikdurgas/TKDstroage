@@ -1,5 +1,5 @@
-<FilesMatch "\.(ttf|pdf|mp3|jpg|png|ttc|otf|eot|woff|woff2|font.css|css|svg|js)$">
-    <IfModule mod_headers.c>
-      Header set Access-Control-Allow-Origin "*"
-    </IfModule>
-</FilesMatch>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|pdf|mp3|jpg|png|ttc|otf|eot|woff|woff2|font.css|css|svg|js)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
