@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "meta-charset-utf-8": "off",
+    "meta-viewport": "off",
+    "highest-available-document-mode": "off",
+    "compat-api/html": "off",
+    "detect-css-reflows/layout": "off",
+    "no-inline-styles": "off"
+  }
+}
