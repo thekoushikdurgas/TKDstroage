@@ -1,7 +1,9 @@
 @font-face{font-family:"Font Awesome 6 Brands";font-style:normal;font-weight:400;font-display:block;src:url(../webfonts/fa-brands-400.woff2) format("woff2"),url(../webfonts/fa-brands-400.ttf) format("truetype")}
+@font-face{font-family:"Font Awesome 6 Duotone";font-style:normal;font-weight:900;font-display:block;src:url(../webfonts/fa-duotone-900.woff2) format("woff2"),url(../webfonts/fa-duotone-900.ttf) format("truetype")}
 @font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:300;font-display:block;src:url(../webfonts/fa-light-300.woff2) format("woff2"),url(../webfonts/fa-light-300.ttf) format("truetype")}
 @font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:400;font-display:block;src:url(../webfonts/fa-regular-400.woff2) format("woff2"),url(../webfonts/fa-regular-400.ttf) format("truetype")}
 @font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:900;font-display:block;src:url(../webfonts/fa-solid-900.woff2) format("woff2"),url(../webfonts/fa-solid-900.ttf) format("truetype")}
+@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:100;font-display:block;src:url(../webfonts/fa-thin-100.woff2) format("woff2"),url(../webfonts/fa-thin-100.ttf) format("truetype")}
 @font-face{font-family:"Font Awesome 5 Brands";font-display:block;font-weight:400;src:url(../webfonts/fa-brands-400.woff2) format("woff2"),url(../webfonts/fa-brands-400.ttf) format("truetype")}
 @font-face{font-family:"Font Awesome 5 Pro";font-display:block;font-weight:900;src:url(../webfonts/fa-solid-900.woff2) format("woff2"),url(../webfonts/fa-solid-900.ttf) format("truetype")}
 @font-face{font-family:"Font Awesome 5 Pro";font-display:block;font-weight:400;src:url(../webfonts/fa-regular-400.woff2) format("woff2"),url(../webfonts/fa-regular-400.ttf) format("truetype")}
@@ -11,14 +13,19 @@
 @font-face{font-family:"FontAwesome";font-display:block;src:url(../webfonts/fa-brands-400.woff2) format("woff2"),url(../webfonts/fa-brands-400.ttf) format("truetype")}
 @font-face{font-family:"FontAwesome";font-display:block;src:url(../webfonts/fa-regular-400.woff2) format("woff2"),url(../webfonts/fa-regular-400.ttf) format("truetype");unicode-range:u+f003,u+f006,u+f014,u+f016-f017,u+f01a-f01b,u+f01d,u+f022,u+f03e,u+f044,u+f046,u+f05c-f05d,u+f06e,u+f070,u+f087-f088,u+f08a,u+f094,u+f096-f097,u+f09d,u+f0a0,u+f0a2,u+f0a4-f0a7,u+f0c5,u+f0c7,u+f0e5-f0e6,u+f0eb,u+f0f6-f0f8,u+f10c,u+f114-f115,u+f118-f11a,u+f11c-f11d,u+f133,u+f147,u+f14e,u+f150-f152,u+f185-f186,u+f18e,u+f190-f192,u+f196,u+f1c1-f1c9,u+f1d9,u+f1db,u+f1e3,u+f1ea,u+f1f7,u+f1f9,u+f20a,u+f247-f248,u+f24a,u+f24d,u+f255-f25b,u+f25d,u+f271-f274,u+f278,u+f27b,u+f28c,u+f28e,u+f29c,u+f2b5,u+f2b7,u+f2ba,u+f2bc,u+f2be,u+f2c0-f2c1,u+f2c3,u+f2d0,u+f2d2,u+f2d4,u+f2dc}
 @font-face{font-family:"FontAwesome";font-display:block;src:url(../webfonts/fa-v4compatibility.woff2) format("woff2"),url(../webfonts/fa-v4compatibility.ttf) format("truetype");unicode-range:u+f041,u+f047,u+f065-f066,u+f07d-f07e,u+f080,u+f08b,u+f08e,u+f090,u+f09a,u+f0ac,u+f0ae,u+f0b2,u+f0d0,u+f0d6,u+f0e4,u+f0ec,u+f10a-f10b,u+f123,u+f13e,u+f148-f149,u+f14c,u+f156,u+f15e,u+f160-f161,u+f163,u+f175-f178,u+f195,u+f1f8,u+f219,u+f27a}
-@font-face{font-family:"Font Awesome 6 Pro";font-style:normal;font-weight:100;font-display:block;src:url(../webfonts/fa-thin-100.woff2) format("woff2"),url(../webfonts/fa-thin-100.ttf) format("truetype")}
-@font-face{font-family:"Font Awesome 6 Duotone";font-style:normal;font-weight:900;font-display:block;src:url(../webfonts/fa-duotone-900.woff2) format("woff2"),url(../webfonts/fa-duotone-900.ttf) format("truetype")}.fa{font-family:var(--fa-style-family,"Font Awesome 6 Pro");font-weight:var(--fa-style,900)}
+@font-face{font-family:"Font Awesome 6 Sharp";font-style:normal;font-weight:300;font-display:block;src:url(../webfonts/fa-sharp-light-300.woff2) format("woff2"),url(../webfonts/fa-sharp-light-300.ttf) format("truetype")}
+@font-face{font-family:"Font Awesome 6 Sharp";font-style:normal;font-weight:400;font-display:block;src:url(../webfonts/fa-sharp-regular-400.woff2) format("woff2"),url(../webfonts/fa-sharp-regular-400.ttf) format("truetype")}
+@font-face{font-family:"Font Awesome 6 Sharp";font-style:normal;font-weight:900;font-display:block;src:url(../webfonts/fa-sharp-solid-900.woff2) format("woff2"),url(../webfonts/fa-sharp-solid-900.ttf) format("truetype")}
 :host,:root{--fa-style-family-brands:"Font Awesome 6 Brands";--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"}
+:host,:root{--fa-style-family-duotone:"Font Awesome 6 Duotone";--fa-font-duotone:normal 900 1em/1 "Font Awesome 6 Duotone"}
 :host,:root{--fa-font-light:normal 300 1em/1 "Font Awesome 6 Pro"}
 :host,:root{--fa-font-regular:normal 400 1em/1 "Font Awesome 6 Pro"}
 :host,:root{--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Pro"}
 :host,:root{--fa-style-family-classic:"Font Awesome 6 Pro";--fa-font-thin:normal 100 1em/1 "Font Awesome 6 Pro"}
-:host,:root{--fa-style-family-duotone:"Font Awesome 6 Duotone";--fa-font-duotone:normal 900 1em/1 "Font Awesome 6 Duotone"}
+:host,:root{--fa-style-family-sharp:"Font Awesome 6 Sharp";--fa-font-sharp-light:normal 300 1em/1 "Font Awesome 6 Sharp"}
+:host,:root{--fa-style-family-sharp:"Font Awesome 6 Sharp";--fa-font-sharp-regular:normal 400 1em/1 "Font Awesome 6 Sharp"}
+:host,:root{--fa-style-family-sharp:"Font Awesome 6 Sharp";--fa-font-sharp-solid:normal 900 1em/1 "Font Awesome 6 Sharp"}
+.fa{font-family:var(--fa-style-family,"Font Awesome 6 Pro");font-weight:var(--fa-style,900)}
 .fa,.fa-brands,.fa-classic,.fa-duotone,.fa-light,.fa-regular,.fa-sharp,.fa-sharp-solid,.fa-solid,.fa-thin,.fab,.fad,.fal,.far,.fas,.fasl,.fasr,.fass,.fat{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:var(--fa-display,inline-block);font-style:normal;font-variant:normal;line-height:1;text-rendering:auto}
 .fa-classic,.fa-light,.fa-regular,.fa-solid,.fa-thin,.fal,.far,.fas,.fat{font-family:"Font Awesome 6 Pro"}
 .fa-brands,.fab{font-family:"Font Awesome 6 Brands"}
@@ -59,6 +66,55 @@
 .fa-spin{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-duration:var(--fa-animation-duration,2s);animation-duration:var(--fa-animation-duration,2s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,linear);animation-timing-function:var(--fa-animation-timing,linear)}
 .fa-spin-reverse{--fa-animation-direction:reverse}
 .fa-pulse,.fa-spin-pulse{-webkit-animation-name:fa-spin;animation-name:fa-spin;-webkit-animation-direction:var(--fa-animation-direction,normal);animation-direction:var(--fa-animation-direction,normal);-webkit-animation-duration:var(--fa-animation-duration,1s);animation-duration:var(--fa-animation-duration,1s);-webkit-animation-iteration-count:var(--fa-animation-iteration-count,infinite);animation-iteration-count:var(--fa-animation-iteration-count,infinite);-webkit-animation-timing-function:var(--fa-animation-timing,steps(8));animation-timing-function:var(--fa-animation-timing,steps(8))}
+@media (prefers-reduced-motion:reduce){.fa-beat,.fa-beat-fade,.fa-bounce,.fa-fade,.fa-flip,.fa-pulse,.fa-shake,.fa-spin,.fa-spin-pulse{-webkit-animation-delay:-1ms;animation-delay:-1ms;-webkit-animation-duration:1ms;animation-duration:1ms;-webkit-animation-iteration-count:1;animation-iteration-count:1;-webkit-transition-delay:0s;transition-delay:0s;-webkit-transition-duration:0s;transition-duration:0s}}
+@-webkit-keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}
+45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}
+@keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}
+45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}
+@-webkit-keyframes fa-bounce{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}
+10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}
+30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}
+50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}
+57%{-webkit-transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em))}
+64%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}
+to{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}}
+@keyframes fa-bounce{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}
+10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}
+30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}
+50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}
+57%{-webkit-transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em))}
+64%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}
+to{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}}
+@-webkit-keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}
+@keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}
+@-webkit-keyframes fa-beat-fade{0%,to{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}
+50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}
+@keyframes fa-beat-fade{0%,to{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}
+50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}
+@-webkit-keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}
+@keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}
+@-webkit-keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}
+8%,24%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}
+12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}
+16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}
+20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}
+32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}
+36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}
+40%,to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
+@keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}
+8%,24%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}
+12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}
+16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}
+20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}
+32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}
+36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}
+40%,to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
+@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
+@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}
+to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
 .fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
 .fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
 .fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}
@@ -71,18 +127,6 @@
 .fa-stack-1x{line-height:inherit}
 .fa-stack-2x{font-size:2em}
 .fa-inverse{color:var(--fa-inverse,#fff)}
-.fa-sr-only,.fa-sr-only-focusable:not(:focus),.sr-only,.sr-only-focusable:not(:focus){position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}
-.fa-light,.fal{font-weight:300}
-.fa-regular,.far{font-weight:400}
-.fa-solid,.fas{font-weight:900}
-.fa-thin,.fat{font-weight:100}
-.fa-duotone,.fad{position:relative;font-weight:900;letter-spacing:normal}
-.fa-duotone:before,.fad:before{position:absolute;color:var(--fa-primary-color,inherit);opacity:var(--fa-primary-opacity,1)}
-.fa-duotone:after,.fad:after{color:var(--fa-secondary-color,inherit)}
-.fa-duotone.fa-swap-opacity:before,.fa-duotone:after,.fa-swap-opacity .fa-duotone:before,.fa-swap-opacity .fad:before,.fad.fa-swap-opacity:before,.fad:after{opacity:var(--fa-secondary-opacity,.4)}
-.fa-duotone.fa-swap-opacity:after,.fa-swap-opacity .fa-duotone:after,.fa-swap-opacity .fad:after,.fad.fa-swap-opacity:after{opacity:var(--fa-primary-opacity,1)}
-.fa-duotone.fa-inverse,.fad.fa-inverse{color:var(--fa-inverse,#fff)}
-.fa-duotone.fa-stack-1x,.fa-duotone.fa-stack-2x,.fad.fa-stack-1x,.fad.fa-stack-2x{position:absolute}
 .fa-0:before{content:"\30"}
 .fa-1:before{content:"\31"}
 .fa-2:before{content:"\32"}
@@ -3301,6 +3345,9 @@
 .fa-square-z:before{content:"\e288"}
 .fa-comment-alt-text:before,.fa-message-text:before{content:"\e1e6"}
 .fa-level-up-alt:before,.fa-turn-up:before{content:"\f3bf"}
+.fa-sr-only,.fa-sr-only-focusable:not(:focus),.sr-only,.sr-only-focusable:not(:focus){position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}
+
+
 .fa-brands,.fab{font-weight:400}
 .fa-monero:before{content:"\f3d0"}
 .fa-hooli:before{content:"\f427"}
@@ -3775,6 +3822,15 @@
 .fa-korvue:before{content:"\f42f"}
 .fa-pix:before{content:"\e43a"}
 .fa-steam-symbol:before{content:"\f3f6"}
+
+
+.fa-duotone,.fad{position:relative;font-weight:900;letter-spacing:normal}
+.fa-duotone:before,.fad:before{position:absolute;color:var(--fa-primary-color,inherit);opacity:var(--fa-primary-opacity,1)}
+.fa-duotone:after,.fad:after{color:var(--fa-secondary-color,inherit)}
+.fa-duotone.fa-swap-opacity:before,.fa-duotone:after,.fa-swap-opacity .fa-duotone:before,.fa-swap-opacity .fad:before,.fad.fa-swap-opacity:before,.fad:after{opacity:var(--fa-secondary-opacity,.4)}
+.fa-duotone.fa-swap-opacity:after,.fa-swap-opacity .fa-duotone:after,.fa-swap-opacity .fad:after,.fad.fa-swap-opacity:after{opacity:var(--fa-primary-opacity,1)}
+.fa-duotone.fa-inverse,.fad.fa-inverse{color:var(--fa-inverse,#fff)}
+.fa-duotone.fa-stack-1x,.fa-duotone.fa-stack-2x,.fad.fa-stack-1x,.fad.fa-stack-2x{position:absolute}
 .fa-duotone.fa-0:after,.fad.fa-0:after{content:"\30\30"}
 .fa-duotone.fa-1:after,.fad.fa-1:after{content:"\31\31"}
 .fa-duotone.fa-2:after,.fad.fa-2:after{content:"\32\32"}
@@ -6993,18 +7049,33 @@
 .fa-duotone.fa-square-z:after,.fad.fa-square-z:after{content:"\e288\e288"}
 .fa-duotone.fa-comment-alt-text:after,.fa-duotone.fa-message-text:after,.fad.fa-comment-alt-text:after,.fad.fa-message-text:after{content:"\e1e6\e1e6"}
 .fa-duotone.fa-level-up-alt:after,.fa-duotone.fa-turn-up:after,.fad.fa-level-up-alt:after,.fad.fa-turn-up:after{content:"\f3bf\f3bf"}
-@media (prefers-reduced-motion:reduce){.fa-beat,.fa-beat-fade,.fa-bounce,.fa-fade,.fa-flip,.fa-pulse,.fa-shake,.fa-spin,.fa-spin-pulse{-webkit-animation-delay:-1ms;animation-delay:-1ms;-webkit-animation-duration:1ms;animation-duration:1ms;-webkit-animation-iteration-count:1;animation-iteration-count:1;-webkit-transition-delay:0s;transition-delay:0s;-webkit-transition-duration:0s;transition-duration:0s}}
-@-webkit-keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}
-@keyframes fa-beat{0%,90%{-webkit-transform:scale(1);transform:scale(1)}45%{-webkit-transform:scale(var(--fa-beat-scale,1.25));transform:scale(var(--fa-beat-scale,1.25))}}
-@-webkit-keyframes fa-bounce{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{-webkit-transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em))}64%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}to{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}}
-@keyframes fa-bounce{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}10%{-webkit-transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);transform:scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0)}30%{-webkit-transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));transform:scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em))}50%{-webkit-transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);transform:scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0)}57%{-webkit-transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em));transform:scale(1) translateY(var(--fa-bounce-rebound,-.125em))}64%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}to{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0)}}
-@-webkit-keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}
-@keyframes fa-fade{50%{opacity:var(--fa-fade-opacity,.4)}}
-@-webkit-keyframes fa-beat-fade{0%,to{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}
-@keyframes fa-beat-fade{0%,to{opacity:var(--fa-beat-fade-opacity,.4);-webkit-transform:scale(1);transform:scale(1)}50%{opacity:1;-webkit-transform:scale(var(--fa-beat-fade-scale,1.125));transform:scale(var(--fa-beat-fade-scale,1.125))}}
-@-webkit-keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}
-@keyframes fa-flip{50%{-webkit-transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));transform:rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg))}}
-@-webkit-keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}8%,24%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}40%,to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
-@keyframes fa-shake{0%{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}4%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}8%,24%{-webkit-transform:rotate(-18deg);transform:rotate(-18deg)}12%,28%{-webkit-transform:rotate(18deg);transform:rotate(18deg)}16%{-webkit-transform:rotate(-22deg);transform:rotate(-22deg)}20%{-webkit-transform:rotate(22deg);transform:rotate(22deg)}32%{-webkit-transform:rotate(-12deg);transform:rotate(-12deg)}36%{-webkit-transform:rotate(12deg);transform:rotate(12deg)}40%,to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
-@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
-@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
+
+
+.fa-light,.fal{font-weight:300}
+
+
+.fa-regular,.far{font-weight:400}
+
+
+.fa-solid,.fas{font-weight:900}
+
+
+.fa-thin,.fat{font-weight:100}
+
+
+
+
+
+
+
+
+
+
+
+.fa-light,.fasl{font-weight:300}
+
+
+.fa-regular,.fasr{font-weight:400}
+
+
+.fa-solid,.fass{font-weight:900}
